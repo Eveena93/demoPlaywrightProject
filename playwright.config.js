@@ -42,7 +42,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    slowMo:1000, headless:false,
+    slowMo:1000, headless:true,
     viewport:null,
     launchOptions:{args:['--start-maximized']},
     //ms, slomo : to slow down , to avoid headed in cmd everytime
