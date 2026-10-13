@@ -22,7 +22,7 @@ test('Checkbox Demo',async({page})=>{
      await page.locator('#check-box-three').check()
      await page.locator('#check-box-four').check()
      await page.locator('#check-box-three').uncheck()
-     await page.locator("//button[text()='Select All']").click()
+     await page.locator("//button[text()='Unselect All']").click()
 
 })
 
