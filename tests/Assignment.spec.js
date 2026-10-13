@@ -38,7 +38,7 @@ test('Radio Buttons Demo',async({page})=>{
 
 })
 
-test.only('Select Input',async({page})=>{
+test('Select Input',async({page})=>{
     await page.goto('https://selenium.qabible.in')
     await page.locator('.nav-item').nth(1).click()
     //await page.locator('.list-group-item').nth(3).click()

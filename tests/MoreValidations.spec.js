@@ -43,7 +43,7 @@ test('Screenshot',async({page})=>{
 
 })
 //visual comparison--assertion using image
-test.only('Visual Comparison',async({page})=>{
+test('Visual Comparison',async({page})=>{
     await page.goto("https://www.saucedemo.com/")
     expect(await page.screenshot()).toMatchSnapshot("saucedemo.png")
 

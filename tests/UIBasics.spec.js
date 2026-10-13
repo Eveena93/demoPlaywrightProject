@@ -145,7 +145,7 @@ test('Special locators in playwright',async({page})=>{
 const date=12
 const month=11
 const year=1997
-test.only('Calendar Validation',async({page})=>{
+test('Calendar Validation',async({page})=>{
      await page.goto("https://selenium.qabible.in/index.php")
      await page.getByRole("link",{name:'Date Pickers'}).click()
      await page.getByRole("link",{name:'Bootstrap Date Picker'}).click()

@@ -26,7 +26,7 @@ test('Locators in playwright',async({page})=>{
 // absolute xpath : selection from root node
 
 
-test.only('Special locators in playwright',async({page})=>{
+test('Special locators in playwright',async({page})=>{
     await page.goto("https://groceryapp.uniqassosiates.com/admin/login")
     const userName=page.locator("//input[@name='username']")
     await userName.fill("admin")
