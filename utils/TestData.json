@@ -4,3 +4,7 @@
     "invalidusername":"standard_user12",
     "invalidpassword":"secret_sauce12"
 }
+
+//json file read , excel file read
+//playwright gives importance to json file read 
+//even if there is excel file , it will be converted to json

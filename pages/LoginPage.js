@@ -24,6 +24,7 @@ export class LoginPage{
     }
     async validateSucessfulLogin(){
         await expect(this.page).toHaveURL('https://www.saucedemo.com/inventory.html')
+        await expect(this.page.locator('.title')).toHaveText('Products')
         
     }
     async validateUnsuccessfulLogin(){
